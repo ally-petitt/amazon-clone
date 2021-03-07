@@ -5,4 +5,4 @@
 -Firebase
 
 
-You can find it [here](https://github.com/ally-petitt/amazon-clone.git)
+You can find it [here](https://ally-petitt.github.io/amazon-clone/)
