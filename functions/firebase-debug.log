@@ -1,0 +1,68 @@
+[debug] [2021-03-07T18:49:11.901Z] ----------------------------------------------------------------------
+[debug] [2021-03-07T18:49:11.903Z] Command:       /usr/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2021-03-07T18:49:11.903Z] CLI Version:   9.5.0
+[debug] [2021-03-07T18:49:11.903Z] Platform:      linux
+[debug] [2021-03-07T18:49:11.903Z] Node Version:  v10.19.0
+[debug] [2021-03-07T18:49:11.903Z] Time:          Sun Mar 07 2021 10:49:11 GMT-0800 (Pacific Standard Time)
+[debug] [2021-03-07T18:49:11.903Z] ----------------------------------------------------------------------
+[debug] [2021-03-07T18:49:11.904Z] 
+[debug] [2021-03-07T18:49:11.908Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-07T18:49:11.908Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2021-03-07T18:49:11.925Z] [hub] writing locator at /tmp/hub-clone-a30c4.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub\u001b[22m"}}
+[warn] ⚠  Your requested "node" version "12" doesn't match your global version "10" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"12\" doesn't match your global version \"10\""}}
+[debug] [2021-03-07T18:49:11.949Z] defaultcredentials: writing to file /home/ally/.config/firebase/allypetitt_gmail_com_application_default_credentials.json
+[debug] [2021-03-07T18:49:11.951Z] Setting GAC to /home/ally/.config/firebase/allypetitt_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/ally/.config/firebase/allypetitt_gmail_com_application_default_credentials.json"}}
+[debug] [2021-03-07T18:49:11.953Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-a30c4/adminSdkConfig [none]
+[debug] [2021-03-07T18:49:12.643Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-a30c4/adminSdkConfig 200
+[debug] [2021-03-07T18:49:12.644Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-a30c4/adminSdkConfig {"projectId":"clone-a30c4","storageBucket":"clone-a30c4.appspot.com"}
+[debug] [2021-03-07T18:49:12.655Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-a30c4/webApps/-/config [none]
+[debug] [2021-03-07T18:49:13.121Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-a30c4/webApps/-/config 200
+[debug] [2021-03-07T18:49:13.121Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-a30c4/webApps/-/config {"projectId":"clone-a30c4","appId":"1:180773774287:web:fb4783d54edbb9daf768ba","storageBucket":"clone-a30c4.appspot.com","apiKey":"AIzaSyAikG8YKnv6Otwono1CfzSbe8YgWDw-33U","authDomain":"clone-a30c4.firebaseapp.com","messagingSenderId":"180773774287","measurementId":"G-YF62SN6R6Q"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2021-03-07T18:49:13.138Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-03-07T18:49:13.138Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-03-07T18:49:13.138Z] Starting Emulator UI with command {"binary":"node","args":["/home/ally/.cache/firebase/emulators/ui-v1.4.2/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/ally/.cache/firebase/emulators/ui-v1.4.2/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2021-03-07T18:49:13.459Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] i  functions: Watching "/home/ally/Documents/amazon-clone/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/ally/Documents/amazon-clone/functions\" for Cloud Functions..."}}
+[debug] [2021-03-07T18:49:13.661Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2021-03-07T18:49:13.661Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2021-03-07T18:49:13.661Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2021-03-07T18:49:13.661Z] [worker-~diagnostic~-ec3d656d-ad9a-473b-a9ad-e613d502af67]: Assigning socketPath: /tmp/fire_emu_213815.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-ec3d656d-ad9a-473b-a9ad-e613d502af67]: Assigning socketPath: /tmp/fire_emu_213815.sock"}}
+[debug] [2021-03-07T18:49:13.662Z] [worker-~diagnostic~-ec3d656d-ad9a-473b-a9ad-e613d502af67]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-ec3d656d-ad9a-473b-a9ad-e613d502af67]: BUSY"}}
+[debug] [2021-03-07T18:49:13.992Z] [runtime-status] [213815] Functions runtime initialized. {"cwd":"/home/ally/Documents/amazon-clone/functions","node_version":"10.19.0"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Functions runtime initialized. {\"cwd\":\"/home/ally/Documents/amazon-clone/functions\",\"node_version\":\"10.19.0\"}"}}
+[debug] [2021-03-07T18:49:13.992Z] [runtime-status] [213815] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Disabled runtime features: undefined"}}
+[debug] [2021-03-07T18:49:13.993Z] [runtime-status] [213815] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.5.0\",\"resolution\":\"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2021-03-07T18:49:13.994Z] [runtime-status] [213815] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.2\",\"resolution\":\"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2021-03-07T18:49:13.995Z] [runtime-status] [213815] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.2\",\"resolution\":\"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2021-03-07T18:49:13.996Z] [runtime-status] [213815] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2021-03-07T18:49:13.997Z] [runtime-status] [213815] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.2\",\"resolution\":\"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2021-03-07T18:49:14.020Z] [runtime-status] [213815] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Checked functions.config() {\"config\":{}}"}}
+[debug] [2021-03-07T18:49:14.020Z] [runtime-status] [213815] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.2","resolution":"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.13.2\",\"resolution\":\"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2021-03-07T18:49:14.021Z] [runtime-status] [213815] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.2\",\"resolution\":\"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2021-03-07T18:49:14.021Z] [runtime-status] [213815] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.5.0","resolution":"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.5.0\",\"resolution\":\"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2021-03-07T18:49:14.021Z] [runtime-status] [213815] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.2","resolution":"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.2\",\"resolution\":\"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2021-03-07T18:49:14.022Z] [runtime-status] [213815] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.5.0","resolution":"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [213815] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"9.5.0\",\"resolution\":\"/home/ally/Documents/amazon-clone/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2021-03-07T18:49:14.023Z] [worker-~diagnostic~-ec3d656d-ad9a-473b-a9ad-e613d502af67]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-ec3d656d-ad9a-473b-a9ad-e613d502af67]: IDLE"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
