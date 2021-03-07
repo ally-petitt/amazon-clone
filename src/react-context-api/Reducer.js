@@ -25,13 +25,16 @@ const reducer = (state, action) => {
       if (index >= 0) {
         newBasket.splice(index, 1);
       } else {
-        console.warn(
-          "Can't remove product (id: ${action.id}) as its not in the basket!"
-        );
+        console.warn("Can't remove product as its not in the basket!");
       }
       return {
         ...state,
         basket: newBasket,
+      };
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
       };
 
     default:
