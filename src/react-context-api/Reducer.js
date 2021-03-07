@@ -1,3 +1,4 @@
+import { BackspaceTwoTone } from "@material-ui/icons";
 import { returnTrue } from "react-currency-format/lib/utils";
 
 export const initialState = {
@@ -35,6 +36,12 @@ const reducer = (state, action) => {
       return {
         ...state,
         user: action.user,
+      };
+
+    case "CLEAR_BASKET":
+      return {
+        ...state,
+        basket: [],
       };
 
     default:

@@ -1,0 +1,22 @@
+.orders__container {
+  margin: 15px 50px;
+}
+
+.orders__container > h1 {
+  border-bottom: 1px solid lightgray;
+}
+
+button {
+  display: block;
+  background: linear-gradient(to bottom, #f6dc9c, #f0c24f);
+  border: 1px solid;
+  margin: 30px auto;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 3px 15px;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+}
